@@ -2,13 +2,34 @@
 
 Feel free to add more examples.
 
+## Prerequisites
+
+### Node.js and Homebrew
+
+We aim to use the current active [LTS version of Node.js](https://nodejs.dev/en/about/releases/), which is V22 at the time of writing. There is a `.tool-versions` file to simplify setup using [nodenv](https://github.com/nodenv/nodenv) (install Node version by running `nodenv install`) or [asdf](https://github.com/asdf-vm/asdf-nodejs) (check and install used Node version by running `asdf current`) and a `.nvmrc` file to simplify setup using [nvm](https://github.com/nvm-sh/nvm) (check and install Node version by running `nvm use`).
+
+Additionally we use [Git Hooks](#git-hooks) that can be installed with [Homebrew](https://brew.sh/), please check if brew is available on your machine with `brew -v` command.
+
+For the provided Git hooks you will need to install [lefthook](https://github.com/evilmartians/lefthook)
+(git hook manager) `brew install lefthook`. Afterwards execute `lefthook install` to initialize the hooks or run `lefthook run pre-commit` before commiting new changes. See `lefthook.yml` for more details in regards to the currently configured git hooks.
+
 ## Getting started
 
-Explain how to start the project after first checkout. Don't assume deep familiarity with the patterns of your eco-system!
+Project was set up with `npm create vite@latest` and the `react-ts` template.
+
+```sh
+# install dependencies
+npm i
+```
 
 ## Usage
 
-List the main entry-points of this project. This may include running a dev server, building, running tests or similar.
+Local development URL should be [http://localhost:5173/](http://localhost:5173/), have a look at the terminal output.
+
+```sh
+# start local development
+npm run dev
+```
 
 ## Contributing
 

@@ -1,0 +1,13 @@
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: npx --yes commitlint --edit
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      tags: lint
+      run: npm run lint:check
+    check-format:
+      tags: style
+      run: npm run format:check
