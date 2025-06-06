@@ -1,6 +1,6 @@
-# Template for open source projects
+# A2J UI component library prototyping
 
-You can use this template when open sourcing your project! < replace this line with a concise summary of your project.
+Feel free to add more examples.
 
 ## Getting started
 

@@ -1,0 +1,26 @@
+{
+  "name": "a2j-ui-prototype",
+  "version": "1.0.0",
+  "description": "A2J UI component library prototyping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalservicebund/a2j-ui-prototype.git"
+  },
+  "keywords": [
+    "a2j",
+    "react",
+    "ui",
+    "component",
+    "library"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalservicebund/a2j-ui-prototype/issues"
+  },
+  "homepage": "https://github.com/digitalservicebund/a2j-ui-prototype#readme"
+}
